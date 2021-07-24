@@ -1,5 +1,5 @@
 def main()
-  puts "Welcome to Vignère cipher encoder!"
+  puts "Welcome to Vigenère cipher encoder!"
   puts "-" * 60
   puts "Text to be encrypted"
   usr_txt = gets.chomp
