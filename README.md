@@ -7,4 +7,4 @@ cd Vignere-cipher
 ruby main.rb
 ```
 # License
-License: [MIT]()
+License: [MIT](LICENSE)
