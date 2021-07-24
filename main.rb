@@ -22,8 +22,8 @@ def main()
     r = txt_int.length
     r.times do |b|
       add = key_int[b % key_len]
-      value = (((txt_int[b] - 32 + add) % 95) + 32).chr
-      result += value
+      value = ((txt_int[b] - 32 + add) % 95)
+      result += (value + 32).chr
     end
     puts "-" * 60
     puts "Final text: #{result}"
